@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>EXERCÍCIO 22</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="page-header">EXERCÍCIO 22</h1>
+                <p>Ler um número inteiro N, daí mostrar na tela a tabuada de N para 1 a 10,
+                    conforme exemplo.</p>                                
+                <p>Exemplo:<br>
+                    Deseja a tabuada para qual valor?
+                    <span style="color: red;">4</span><br>
+                    4 x 1 = 4<br>
+                    4 x 2 = 8<br>
+                    4 x 3 = 12<br>
+                    4 x 4 = 16<br>
+                    4 x 5 = 20<br>
+                    4 x 6 = 24<br>
+                    4 x 7 = 28<br>
+                    4 x 8 = 32<br>
+                    4 x 9 = 36<br>
+                    4 x 10 = 40<br></p>
+                    
+            </div>
+        </div>
+        <div class="container formulario">
+            <form>                    
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Deseja a tabuada para qual valor?</span>
+                        <input id="valorX" type="number" class="form-control" aria-describedby="sizing-addon1">
+                        <span class="input-group-addon"></span> 
+                    </div>                  
+                </div>                                                                                                         
+                <button type="button" class="btn btn-info" onclick="calcular()">Calcular</button>
+            </form>
+        </div>
+        <br>
+        <div class="container formulario" id="form2">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">        
+                        <div class="form-group"id="result1"></div>                                            
+                    </div>            
+                </div>                              
+            </form>      
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <p>Espero que  tenha gostado! Feito por Aline Almeida ❤️</p>             
+            </div>
+        </div>
+        <script src="./script.js"></script>     
+    </body>
+</html>
